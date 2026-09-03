@@ -1,0 +1,92 @@
+{
+  "info": {
+    "_postman_id": "sos-backend-collection",
+    "name": "Smart SOS Backend",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Register",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": { "mode": "raw", "raw": "{ \"email\": \"user@example.com\", \"password\": \"secret\", \"name\": \"Demo User\" }" },
+        "url": { "raw": "http://10.176.206.139:5000/auth/register", "protocol": "http", "host": ["localhost"], "port": "4000", "path": ["auth", "register"] }
+      }
+    },
+    {
+      "name": "Login",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": { "mode": "raw", "raw": "{ \"email\": \"user@example.com\", \"password\": \"secret\" }" },
+        "url": { "raw": "http://10.176.206.139:5000/auth/login", "protocol": "http", "host": ["localhost"], "port": "4000", "path": ["auth", "login"] }
+      }
+    },
+    {
+      "name": "Add Contact (auth)",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" },
+          { "key": "Authorization", "value": "Bearer {{token}}" }
+        ],
+        "body": { "mode": "raw", "raw": "{ \"name\": \"Mom\", \"phone\": \"+123456789\", \"relation\": \"family\" }" },
+        "url": { "raw": "http://10.176.206.139:5000/contacts", "protocol": "http", "host": ["localhost"], "port": "4000", "path": ["contacts"] }
+      }
+    },
+    {
+      "name": "Trigger SOS (auth)",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" },
+          { "key": "Authorization", "value": "Bearer {{token}}" }
+        ],
+        "body": { "mode": "raw", "raw": "{ \"latitude\": 28.6139, \"longitude\": 77.2090, \"message\": \"Please help\" }" },
+        "url": { "raw": "http://10.176.206.139:5000/alerts/trigger", "protocol": "http", "host": ["localhost"], "port": "4000", "path": ["alerts", "trigger"] }
+      }
+    },
+    {
+      "name": "Update Location (auth)",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" },
+          { "key": "Authorization", "value": "Bearer {{token}}" }
+        ],
+        "body": { "mode": "raw", "raw": "{ \"latitude\": 28.6140, \"longitude\": 77.2100 }" },
+        "url": { "raw": "http://10.176.206.139:5000/alerts/{{alertId}}/location", "protocol": "http", "host": ["localhost"], "port": "4000", "path": ["alerts", "{{alertId}}", "location"] }
+      }
+    },
+    {
+      "name": "Stop Alert (auth)",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" },
+          { "key": "Authorization", "value": "Bearer {{token}}" }
+        ],
+        "url": { "raw": "http://10.176.206.139:5000/alerts/{{alertId}}/stop", "protocol": "http", "host": ["localhost"], "port": "4000", "path": ["alerts", "{{alertId}}", "stop"] }
+      }
+    },
+    {
+      "name": "Request Password Reset",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": { "mode": "raw", "raw": "{ \"email\": \"user@example.com\" }" },
+        "url": { "raw": "http://10.176.206.139:5000/auth/password/request-reset", "protocol": "http", "host": ["localhost"], "port": "4000", "path": ["auth", "password", "request-reset"] }
+      }
+    },
+    {
+      "name": "Perform Password Reset",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": { "mode": "raw", "raw": "{ \"token\": \"{{resetToken}}\", \"password\": \"newpass\" }" },
+        "url": { "raw": "http://10.176.206.139:5000/auth/password/reset", "protocol": "http", "host": ["localhost"], "port": "4000", "path": ["auth", "password", "reset"] }
+      }
+    }
+  ]
+}

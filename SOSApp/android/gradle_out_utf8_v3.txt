@@ -1,0 +1,609 @@
+﻿> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:shared:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:shared:compileJava NO-SOURCE
+> Task :gradle-plugin:shared:processResources NO-SOURCE
+> Task :gradle-plugin:shared:classes UP-TO-DATE
+> Task :gradle-plugin:shared:jar UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:settings-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:jar UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:react-native-gradle-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:jar UP-TO-DATE
+> Task :app:generateAutolinkingNewArchitectureFiles UP-TO-DATE
+> Task :app:generateAutolinkingPackageList UP-TO-DATE
+> Task :app:generateCodegenSchemaFromJavaScript SKIPPED
+> Task :app:generateCodegenArtifactsFromSchema SKIPPED
+> Task :app:generateReactNativeEntryPoint UP-TO-DATE
+> Task :react-native-async-storage_async-storage:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-async-storage_async-storage:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-async-storage_async-storage:preBuild UP-TO-DATE
+> Task :react-native-background-actions:preBuild UP-TO-DATE
+> Task :react-native-community_geolocation:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-community_geolocation:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-community_geolocation:preBuild UP-TO-DATE
+> Task :react-native-gesture-handler:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-gesture-handler:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-gesture-handler:preBuild UP-TO-DATE
+> Task :react-native-location:preBuild UP-TO-DATE
+> Task :react-native-maps:generateCodegenSchemaFromJavaScript SKIPPED
+> Task :react-native-maps:generateCodegenArtifactsFromSchema SKIPPED
+> Task :react-native-maps:preBuild UP-TO-DATE
+> Task :react-native-reanimated:assertMinimalReactNativeVersionTask
+> Task :react-native-reanimated:assertNewArchitectureEnabledTask SKIPPED
+> Task :react-native-reanimated:assertWorkletsVersionTask
+> Task :react-native-reanimated:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-reanimated:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-reanimated:prepareReanimatedHeadersForPrefabs UP-TO-DATE
+> Task :react-native-reanimated:preBuild
+> Task :react-native-safe-area-context:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-safe-area-context:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-safe-area-context:preBuild UP-TO-DATE
+> Task :react-native-screens:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-screens:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-screens:preBuild UP-TO-DATE
+> Task :react-native-voice_voice:preBuild UP-TO-DATE
+> Task :react-native-webview:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-webview:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-webview:preBuild UP-TO-DATE
+> Task :react-native-worklets:assertMinimalReactNativeVersionTask
+> Task :react-native-worklets:assertNewArchitectureEnabledTask SKIPPED
+> Task :react-native-worklets:generateCodegenSchemaFromJavaScript UP-TO-DATE
+> Task :react-native-worklets:generateCodegenArtifactsFromSchema UP-TO-DATE
+> Task :react-native-worklets:prepareWorkletsHeadersForPrefabs UP-TO-DATE
+> Task :react-native-worklets:preBuild
+> Task :app:preBuild
+> Task :app:preDebugBuild
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-async-storage_async-storage:preDebugBuild UP-TO-DATE
+> Task :react-native-async-storage_async-storage:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-background-actions:preDebugBuild UP-TO-DATE
+> Task :react-native-background-actions:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-community_geolocation:preDebugBuild UP-TO-DATE
+> Task :react-native-community_geolocation:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-gesture-handler:preDebugBuild UP-TO-DATE
+> Task :react-native-gesture-handler:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-location:preDebugBuild UP-TO-DATE
+> Task :react-native-location:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-maps:preDebugBuild UP-TO-DATE
+> Task :react-native-maps:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-reanimated:preDebugBuild
+> Task :react-native-reanimated:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-safe-area-context:preDebugBuild UP-TO-DATE
+> Task :react-native-safe-area-context:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-screens:preDebugBuild UP-TO-DATE
+> Task :react-native-screens:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-voice_voice:preDebugBuild UP-TO-DATE
+> Task :react-native-voice_voice:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-webview:preDebugBuild UP-TO-DATE
+> Task :react-native-webview:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-worklets:preDebugBuild
+> Task :react-native-worklets:writeDebugAarMetadata UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:createBundleDebugJsAndAssets UP-TO-DATE
+> Task :app:generateDebugResValues
+> Task :react-native-async-storage_async-storage:generateDebugResValues UP-TO-DATE
+> Task :react-native-async-storage_async-storage:generateDebugResources UP-TO-DATE
+> Task :react-native-async-storage_async-storage:packageDebugResources UP-TO-DATE
+> Task :react-native-background-actions:generateDebugResValues UP-TO-DATE
+> Task :react-native-background-actions:generateDebugResources UP-TO-DATE
+> Task :react-native-background-actions:packageDebugResources UP-TO-DATE
+> Task :react-native-community_geolocation:generateDebugResValues UP-TO-DATE
+> Task :react-native-community_geolocation:generateDebugResources UP-TO-DATE
+> Task :react-native-community_geolocation:packageDebugResources UP-TO-DATE
+> Task :react-native-gesture-handler:generateDebugResValues UP-TO-DATE
+> Task :react-native-gesture-handler:generateDebugResources UP-TO-DATE
+> Task :react-native-gesture-handler:packageDebugResources UP-TO-DATE
+> Task :react-native-location:generateDebugResValues UP-TO-DATE
+> Task :react-native-location:generateDebugResources UP-TO-DATE
+> Task :react-native-location:packageDebugResources UP-TO-DATE
+> Task :react-native-maps:generateDebugResValues UP-TO-DATE
+> Task :react-native-maps:generateDebugResources UP-TO-DATE
+> Task :react-native-maps:packageDebugResources UP-TO-DATE
+> Task :react-native-reanimated:generateDebugResValues UP-TO-DATE
+> Task :react-native-reanimated:generateDebugResources UP-TO-DATE
+> Task :react-native-reanimated:packageDebugResources UP-TO-DATE
+> Task :react-native-safe-area-context:generateDebugResValues UP-TO-DATE
+> Task :react-native-safe-area-context:generateDebugResources UP-TO-DATE
+> Task :react-native-safe-area-context:packageDebugResources UP-TO-DATE
+> Task :react-native-screens:generateDebugResValues UP-TO-DATE
+> Task :react-native-screens:generateDebugResources UP-TO-DATE
+> Task :react-native-screens:packageDebugResources UP-TO-DATE
+> Task :react-native-voice_voice:generateDebugResValues UP-TO-DATE
+> Task :react-native-voice_voice:generateDebugResources UP-TO-DATE
+> Task :react-native-voice_voice:packageDebugResources UP-TO-DATE
+> Task :react-native-webview:generateDebugResValues UP-TO-DATE
+> Task :react-native-webview:generateDebugResources UP-TO-DATE
+> Task :react-native-webview:packageDebugResources UP-TO-DATE
+> Task :react-native-worklets:generateDebugResValues UP-TO-DATE
+> Task :react-native-worklets:generateDebugResources UP-TO-DATE
+> Task :react-native-worklets:packageDebugResources UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:packageDebugResources
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-async-storage_async-storage:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-async-storage_async-storage:processDebugManifest UP-TO-DATE
+> Task :react-native-background-actions:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-background-actions:processDebugManifest UP-TO-DATE
+> Task :react-native-community_geolocation:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-community_geolocation:processDebugManifest UP-TO-DATE
+> Task :react-native-gesture-handler:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-gesture-handler:processDebugManifest UP-TO-DATE
+> Task :react-native-location:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-location:processDebugManifest UP-TO-DATE
+> Task :react-native-maps:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-maps:processDebugManifest UP-TO-DATE
+> Task :react-native-reanimated:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-reanimated:processDebugManifest UP-TO-DATE
+> Task :react-native-safe-area-context:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-safe-area-context:processDebugManifest UP-TO-DATE
+> Task :react-native-screens:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-screens:processDebugManifest UP-TO-DATE
+> Task :react-native-voice_voice:extractDeepLinksDebug UP-TO-DATE
+> Task :app:parseDebugLocalResources
+> Task :react-native-voice_voice:processDebugManifest UP-TO-DATE
+> Task :react-native-webview:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-webview:processDebugManifest UP-TO-DATE
+> Task :react-native-worklets:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-worklets:processDebugManifest UP-TO-DATE
+> Task :app:mergeDebugResources
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest
+> Task :react-native-async-storage_async-storage:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-async-storage_async-storage:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-async-storage_async-storage:generateDebugRFile UP-TO-DATE
+> Task :react-native-background-actions:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-background-actions:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-background-actions:generateDebugRFile UP-TO-DATE
+> Task :react-native-community_geolocation:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-community_geolocation:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-community_geolocation:generateDebugRFile UP-TO-DATE
+> Task :react-native-gesture-handler:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-gesture-handler:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-gesture-handler:generateDebugRFile UP-TO-DATE
+> Task :react-native-location:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-location:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-location:generateDebugRFile UP-TO-DATE
+> Task :react-native-maps:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-maps:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-maps:generateDebugRFile UP-TO-DATE
+> Task :react-native-reanimated:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-reanimated:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-reanimated:generateDebugRFile UP-TO-DATE
+> Task :react-native-safe-area-context:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-safe-area-context:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-safe-area-context:generateDebugRFile UP-TO-DATE
+> Task :react-native-screens:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-screens:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-screens:generateDebugRFile UP-TO-DATE
+> Task :react-native-voice_voice:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-voice_voice:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-voice_voice:generateDebugRFile UP-TO-DATE
+> Task :react-native-webview:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-webview:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-webview:generateDebugRFile UP-TO-DATE
+> Task :react-native-worklets:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-worklets:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-worklets:generateDebugRFile UP-TO-DATE
+> Task :react-native-async-storage_async-storage:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-async-storage_async-storage:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-async-storage_async-storage:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-async-storage_async-storage:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-background-actions:generateDebugBuildConfig UP-TO-DATE
+> Task :app:processDebugManifestForPackage
+> Task :react-native-background-actions:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-background-actions:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-background-actions:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-community_geolocation:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-community_geolocation:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-community_geolocation:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-community_geolocation:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-gesture-handler:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-gesture-handler:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-reanimated:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-reanimated:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-worklets:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-worklets:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-worklets:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-worklets:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-reanimated:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-reanimated:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-gesture-handler:compileDebugKotlin UP-TO-DATE
+> Task :react-native-gesture-handler:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-gesture-handler:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-gesture-handler:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-location:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-location:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-location:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-location:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-maps:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-maps:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-maps:compileDebugKotlin NO-SOURCE
+> Task :react-native-maps:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-maps:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-maps:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-safe-area-context:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-safe-area-context:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-safe-area-context:compileDebugKotlin UP-TO-DATE
+> Task :react-native-safe-area-context:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-safe-area-context:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-safe-area-context:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-screens:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-screens:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-screens:compileDebugKotlin UP-TO-DATE
+> Task :react-native-screens:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-screens:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-screens:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-voice_voice:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-voice_voice:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-voice_voice:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-voice_voice:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-webview:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-webview:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-webview:compileDebugKotlin UP-TO-DATE
+> Task :react-native-webview:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-webview:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-webview:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :react-native-async-storage_async-storage:mergeDebugShaders UP-TO-DATE
+> Task :react-native-async-storage_async-storage:compileDebugShaders NO-SOURCE
+> Task :react-native-async-storage_async-storage:generateDebugAssets UP-TO-DATE
+> Task :react-native-async-storage_async-storage:mergeDebugAssets UP-TO-DATE
+> Task :react-native-background-actions:mergeDebugShaders UP-TO-DATE
+> Task :react-native-background-actions:compileDebugShaders NO-SOURCE
+> Task :react-native-background-actions:generateDebugAssets UP-TO-DATE
+> Task :react-native-background-actions:mergeDebugAssets UP-TO-DATE
+> Task :react-native-community_geolocation:mergeDebugShaders UP-TO-DATE
+> Task :react-native-community_geolocation:compileDebugShaders NO-SOURCE
+> Task :react-native-community_geolocation:generateDebugAssets UP-TO-DATE
+> Task :react-native-community_geolocation:mergeDebugAssets UP-TO-DATE
+> Task :react-native-gesture-handler:mergeDebugShaders UP-TO-DATE
+> Task :react-native-gesture-handler:compileDebugShaders NO-SOURCE
+> Task :react-native-gesture-handler:generateDebugAssets UP-TO-DATE
+> Task :react-native-gesture-handler:mergeDebugAssets UP-TO-DATE
+> Task :react-native-location:mergeDebugShaders UP-TO-DATE
+> Task :react-native-location:compileDebugShaders NO-SOURCE
+> Task :react-native-location:generateDebugAssets UP-TO-DATE
+> Task :react-native-location:mergeDebugAssets UP-TO-DATE
+> Task :react-native-maps:mergeDebugShaders UP-TO-DATE
+> Task :react-native-maps:compileDebugShaders NO-SOURCE
+> Task :react-native-maps:generateDebugAssets UP-TO-DATE
+> Task :react-native-maps:mergeDebugAssets UP-TO-DATE
+> Task :react-native-reanimated:mergeDebugShaders UP-TO-DATE
+> Task :react-native-reanimated:compileDebugShaders NO-SOURCE
+> Task :react-native-reanimated:generateDebugAssets UP-TO-DATE
+> Task :react-native-reanimated:mergeDebugAssets UP-TO-DATE
+> Task :react-native-safe-area-context:mergeDebugShaders UP-TO-DATE
+> Task :react-native-safe-area-context:compileDebugShaders NO-SOURCE
+> Task :react-native-safe-area-context:generateDebugAssets UP-TO-DATE
+> Task :react-native-safe-area-context:mergeDebugAssets UP-TO-DATE
+> Task :react-native-screens:mergeDebugShaders UP-TO-DATE
+> Task :react-native-screens:compileDebugShaders NO-SOURCE
+> Task :react-native-screens:generateDebugAssets UP-TO-DATE
+> Task :react-native-screens:mergeDebugAssets UP-TO-DATE
+> Task :react-native-voice_voice:mergeDebugShaders UP-TO-DATE
+> Task :react-native-voice_voice:compileDebugShaders NO-SOURCE
+> Task :react-native-voice_voice:generateDebugAssets UP-TO-DATE
+> Task :react-native-voice_voice:mergeDebugAssets UP-TO-DATE
+> Task :react-native-webview:mergeDebugShaders UP-TO-DATE
+> Task :react-native-webview:compileDebugShaders NO-SOURCE
+> Task :react-native-webview:generateDebugAssets UP-TO-DATE
+> Task :react-native-webview:mergeDebugAssets UP-TO-DATE
+> Task :react-native-worklets:mergeDebugShaders UP-TO-DATE
+> Task :react-native-worklets:compileDebugShaders NO-SOURCE
+> Task :react-native-worklets:generateDebugAssets UP-TO-DATE
+> Task :react-native-worklets:mergeDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets
+> Task :react-native-gesture-handler:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-maps:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-safe-area-context:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-screens:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-webview:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-async-storage_async-storage:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-community_geolocation:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-voice_voice:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-background-actions:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :app:compressDebugAssets
+> Task :react-native-reanimated:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-worklets:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-location:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :react-native-async-storage_async-storage:processDebugJavaRes NO-SOURCE
+> Task :react-native-background-actions:processDebugJavaRes NO-SOURCE
+> Task :react-native-community_geolocation:processDebugJavaRes NO-SOURCE
+> Task :react-native-gesture-handler:processDebugJavaRes UP-TO-DATE
+> Task :react-native-location:processDebugJavaRes NO-SOURCE
+> Task :react-native-maps:processDebugJavaRes NO-SOURCE
+> Task :react-native-reanimated:processDebugJavaRes NO-SOURCE
+> Task :react-native-safe-area-context:processDebugJavaRes UP-TO-DATE
+> Task :react-native-screens:processDebugJavaRes UP-TO-DATE
+> Task :react-native-voice_voice:processDebugJavaRes NO-SOURCE
+> Task :react-native-webview:processDebugJavaRes UP-TO-DATE
+> Task :react-native-worklets:processDebugJavaRes NO-SOURCE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :react-native-gesture-handler:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :react-native-maps:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :react-native-safe-area-context:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :react-native-screens:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :react-native-webview:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :react-native-async-storage_async-storage:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :react-native-community_geolocation:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :react-native-voice_voice:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :react-native-background-actions:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :react-native-reanimated:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :react-native-worklets:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :react-native-location:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :app:processDebugResources
+> Task :react-native-worklets:configureCMakeDebug[arm64-v8a]
+> Task :app:compileDebugKotlin UP-TO-DATE
+> Task :app:compileDebugJavaWithJavac UP-TO-DATE
+> Task :app:dexBuilderDebug UP-TO-DATE
+> Task :app:mergeDebugGlobalSynthetics UP-TO-DATE
+> Task :app:processDebugJavaRes UP-TO-DATE
+> Task :app:mergeDebugJavaResource UP-TO-DATE
+> Task :app:mergeLibDexDebug UP-TO-DATE
+> Task :app:mergeProjectDexDebug UP-TO-DATE
+> Task :react-native-worklets:buildCMakeDebug[arm64-v8a][worklets]
+> Task :react-native-worklets:configureCMakeDebug[armeabi-v7a]
+> Task :react-native-worklets:buildCMakeDebug[armeabi-v7a][worklets]
+> Task :react-native-worklets:configureCMakeDebug[x86]
+> Task :react-native-worklets:buildCMakeDebug[x86][worklets]
+> Task :react-native-worklets:configureCMakeDebug[x86_64]
+> Task :react-native-worklets:buildCMakeDebug[x86_64][worklets]
+> Task :react-native-worklets:externalNativeBuildDebug
+> Task :react-native-worklets:generateJsonModelDebug
+> Task :react-native-worklets:prefabDebugConfigurePackage
+> Task :react-native-reanimated:configureCMakeDebug[arm64-v8a]
+> Task :react-native-reanimated:configureCMakeDebug[armeabi-v7a]
+> Task :react-native-reanimated:configureCMakeDebug[x86]
+> Task :react-native-reanimated:configureCMakeDebug[x86_64]
+> Task :react-native-reanimated:generateJsonModelDebug
+> Task :react-native-reanimated:prefabDebugConfigurePackage UP-TO-DATE
+> Task :app:configureCMakeDebug[arm64-v8a]
+> Task :react-native-worklets:prefabDebugPackage UP-TO-DATE
+> Task :react-native-reanimated:buildCMakeDebug[arm64-v8a][reanimated]
+> Task :react-native-reanimated:buildCMakeDebug[armeabi-v7a][reanimated]
+> Task :react-native-reanimated:buildCMakeDebug[x86][reanimated]
+> Task :react-native-reanimated:buildCMakeDebug[x86_64][reanimated]
+> Task :react-native-worklets:mergeDebugJniLibFolders UP-TO-DATE
+> Task :react-native-worklets:mergeDebugNativeLibs UP-TO-DATE
+> Task :react-native-worklets:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-reanimated:externalNativeBuildDebug
+> Task :react-native-reanimated:prefabDebugPackage UP-TO-DATE
+> Task :app:buildCMakeDebug[arm64-v8a]
+> Task :app:configureCMakeDebug[armeabi-v7a]
+> Task :app:buildCMakeDebug[armeabi-v7a]
+> Task :app:configureCMakeDebug[x86]
+> Task :app:buildCMakeDebug[x86]
+> Task :app:configureCMakeDebug[x86_64]
+> Task :app:buildCMakeDebug[x86_64]
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :react-native-async-storage_async-storage:mergeDebugJniLibFolders UP-TO-DATE
+> Task :react-native-async-storage_async-storage:mergeDebugNativeLibs NO-SOURCE
+> Task :react-native-async-storage_async-storage:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-background-actions:mergeDebugJniLibFolders UP-TO-DATE
+> Task :react-native-background-actions:mergeDebugNativeLibs NO-SOURCE
+> Task :react-native-background-actions:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-community_geolocation:mergeDebugJniLibFolders UP-TO-DATE
+> Task :react-native-community_geolocation:mergeDebugNativeLibs NO-SOURCE
+> Task :react-native-community_geolocation:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-gesture-handler:configureCMakeDebug[arm64-v8a]
+> Task :react-native-gesture-handler:buildCMakeDebug[arm64-v8a]
+> Task :react-native-gesture-handler:configureCMakeDebug[armeabi-v7a]
+> Task :react-native-gesture-handler:buildCMakeDebug[armeabi-v7a]
+> Task :react-native-gesture-handler:configureCMakeDebug[x86]
+> Task :react-native-gesture-handler:buildCMakeDebug[x86]
+> Task :react-native-gesture-handler:configureCMakeDebug[x86_64]
+> Task :react-native-gesture-handler:buildCMakeDebug[x86_64]
+> Task :react-native-gesture-handler:mergeDebugJniLibFolders UP-TO-DATE
+> Task :react-native-gesture-handler:mergeDebugNativeLibs UP-TO-DATE
+> Task :react-native-gesture-handler:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-location:mergeDebugJniLibFolders UP-TO-DATE
+> Task :react-native-location:mergeDebugNativeLibs NO-SOURCE
+> Task :react-native-location:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-maps:mergeDebugJniLibFolders UP-TO-DATE
+> Task :react-native-maps:mergeDebugNativeLibs NO-SOURCE
+> Task :react-native-maps:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-reanimated:mergeDebugJniLibFolders UP-TO-DATE
+> Task :react-native-reanimated:mergeDebugNativeLibs UP-TO-DATE
+> Task :react-native-reanimated:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-safe-area-context:mergeDebugJniLibFolders UP-TO-DATE
+> Task :react-native-safe-area-context:mergeDebugNativeLibs NO-SOURCE
+> Task :react-native-safe-area-context:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-screens:configureCMakeDebug[arm64-v8a]
+> Task :react-native-screens:buildCMakeDebug[arm64-v8a]
+> Task :react-native-screens:configureCMakeDebug[armeabi-v7a]
+> Task :react-native-screens:buildCMakeDebug[armeabi-v7a]
+> Task :react-native-screens:configureCMakeDebug[x86]
+> Task :react-native-screens:buildCMakeDebug[x86]
+> Task :react-native-screens:configureCMakeDebug[x86_64]
+> Task :react-native-screens:buildCMakeDebug[x86_64]
+> Task :react-native-screens:mergeDebugJniLibFolders UP-TO-DATE
+> Task :react-native-screens:mergeDebugNativeLibs UP-TO-DATE
+> Task :react-native-screens:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-voice_voice:mergeDebugJniLibFolders UP-TO-DATE
+> Task :react-native-voice_voice:mergeDebugNativeLibs NO-SOURCE
+> Task :react-native-voice_voice:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-webview:mergeDebugJniLibFolders UP-TO-DATE
+> Task :react-native-webview:mergeDebugNativeLibs NO-SOURCE
+> Task :react-native-webview:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :app:mergeDebugNativeLibs UP-TO-DATE
+> Task :app:stripDebugDebugSymbols UP-TO-DATE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :react-native-async-storage_async-storage:stripDebugDebugSymbols NO-SOURCE
+> Task :react-native-async-storage_async-storage:copyDebugJniLibsProjectAndLocalJars
+> Task :react-native-async-storage_async-storage:extractDebugAnnotations
+> Task :react-native-async-storage_async-storage:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :react-native-async-storage_async-storage:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :react-native-async-storage_async-storage:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :react-native-async-storage_async-storage:prepareDebugArtProfile UP-TO-DATE
+> Task :react-native-async-storage_async-storage:prepareLintJarForPublish UP-TO-DATE
+> Task :react-native-background-actions:stripDebugDebugSymbols NO-SOURCE
+> Task :react-native-background-actions:copyDebugJniLibsProjectAndLocalJars
+> Task :react-native-background-actions:extractDebugAnnotations
+> Task :react-native-background-actions:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :react-native-background-actions:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :react-native-background-actions:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :react-native-background-actions:prepareDebugArtProfile UP-TO-DATE
+> Task :react-native-background-actions:prepareLintJarForPublish UP-TO-DATE
+> Task :react-native-community_geolocation:stripDebugDebugSymbols NO-SOURCE
+> Task :react-native-community_geolocation:copyDebugJniLibsProjectAndLocalJars
+> Task :react-native-community_geolocation:extractDebugAnnotations
+> Task :react-native-community_geolocation:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :react-native-async-storage_async-storage:mergeDebugJavaResource
+> Task :react-native-background-actions:mergeDebugJavaResource
+> Task :react-native-community_geolocation:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :react-native-async-storage_async-storage:syncDebugLibJars
+> Task :react-native-async-storage_async-storage:bundleDebugAar
+> Task :react-native-async-storage_async-storage:assembleDebug
+> Task :react-native-background-actions:syncDebugLibJars
+> Task :react-native-background-actions:bundleDebugAar
+> Task :react-native-background-actions:assembleDebug
+> Task :react-native-community_geolocation:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :react-native-community_geolocation:prepareDebugArtProfile UP-TO-DATE
+> Task :react-native-community_geolocation:prepareLintJarForPublish UP-TO-DATE
+> Task :react-native-community_geolocation:mergeDebugJavaResource
+> Task :react-native-community_geolocation:syncDebugLibJars
+> Task :react-native-community_geolocation:bundleDebugAar
+> Task :react-native-community_geolocation:assembleDebug
+> Task :react-native-gesture-handler:extractDebugAnnotations
+> Task :react-native-gesture-handler:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :react-native-gesture-handler:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :react-native-gesture-handler:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :react-native-gesture-handler:prepareDebugArtProfile UP-TO-DATE
+> Task :react-native-gesture-handler:prepareLintJarForPublish UP-TO-DATE
+> Task :react-native-location:stripDebugDebugSymbols NO-SOURCE
+> Task :react-native-location:copyDebugJniLibsProjectAndLocalJars
+> Task :react-native-gesture-handler:stripDebugDebugSymbols
+> Task :react-native-location:extractDebugAnnotations
+> Task :react-native-location:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :react-native-location:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :react-native-location:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :react-native-location:prepareDebugArtProfile UP-TO-DATE
+> Task :react-native-location:prepareLintJarForPublish UP-TO-DATE
+> Task :react-native-gesture-handler:mergeDebugJavaResource
+> Task :react-native-gesture-handler:copyDebugJniLibsProjectAndLocalJars
+> Task :react-native-location:mergeDebugJavaResource
+> Task :react-native-gesture-handler:syncDebugLibJars
+> Task :react-native-gesture-handler:bundleDebugAar
+> Task :react-native-gesture-handler:assembleDebug
+> Task :react-native-location:syncDebugLibJars
+> Task :react-native-location:bundleDebugAar
+> Task :react-native-location:assembleDebug
+> Task :react-native-maps:stripDebugDebugSymbols NO-SOURCE
+> Task :react-native-maps:copyDebugJniLibsProjectAndLocalJars
+> Task :react-native-maps:extractDebugAnnotations
+> Task :react-native-maps:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :react-native-maps:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :react-native-maps:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :react-native-maps:prepareDebugArtProfile UP-TO-DATE
+> Task :react-native-maps:prepareLintJarForPublish UP-TO-DATE
+> Task :react-native-maps:mergeDebugJavaResource
+> Task :react-native-reanimated:extractDebugAnnotations
+> Task :react-native-maps:syncDebugLibJars
+> Task :react-native-reanimated:stripDebugDebugSymbols
+> Task :react-native-maps:bundleDebugAar
+> Task :react-native-maps:assembleDebug
+> Task :react-native-reanimated:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :react-native-reanimated:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :react-native-reanimated:mergeDebugConsumerProguardFiles
+> Task :react-native-reanimated:prepareDebugArtProfile UP-TO-DATE
+> Task :react-native-reanimated:prepareLintJarForPublish UP-TO-DATE
+> Task :react-native-safe-area-context:stripDebugDebugSymbols NO-SOURCE
+> Task :react-native-safe-area-context:copyDebugJniLibsProjectAndLocalJars
+> Task :react-native-reanimated:mergeDebugJavaResource
+> Task :react-native-safe-area-context:extractDebugAnnotations
+> Task :react-native-reanimated:syncDebugLibJars
+> Task :react-native-safe-area-context:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :react-native-safe-area-context:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :react-native-safe-area-context:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :react-native-safe-area-context:prepareDebugArtProfile UP-TO-DATE
+> Task :react-native-safe-area-context:prepareLintJarForPublish UP-TO-DATE
+> Task :react-native-safe-area-context:mergeDebugJavaResource
+> Task :app:packageDebug
+> Task :app:createDebugApkListingFileRedirect UP-TO-DATE
+> Task :app:assembleDebug
+> Task :react-native-safe-area-context:syncDebugLibJars
+> Task :react-native-safe-area-context:bundleDebugAar
+> Task :react-native-safe-area-context:assembleDebug
+> Task :react-native-screens:extractDebugAnnotations
+> Task :react-native-screens:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :react-native-screens:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :react-native-screens:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :react-native-screens:prepareDebugArtProfile UP-TO-DATE
+> Task :react-native-screens:prepareLintJarForPublish UP-TO-DATE
+> Task :react-native-screens:stripDebugDebugSymbols
+> Task :react-native-reanimated:copyDebugJniLibsProjectAndLocalJars
+> Task :react-native-screens:mergeDebugJavaResource
+> Task :react-native-reanimated:bundleDebugAar
+> Task :react-native-reanimated:assembleDebug
+> Task :react-native-screens:copyDebugJniLibsProjectAndLocalJars
+> Task :react-native-screens:syncDebugLibJars
+> Task :react-native-screens:bundleDebugAar
+> Task :react-native-screens:assembleDebug
+> Task :react-native-voice_voice:stripDebugDebugSymbols NO-SOURCE
+> Task :react-native-voice_voice:copyDebugJniLibsProjectAndLocalJars
+> Task :react-native-voice_voice:extractDebugAnnotations
+> Task :react-native-voice_voice:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :react-native-voice_voice:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :react-native-voice_voice:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :react-native-voice_voice:prepareDebugArtProfile UP-TO-DATE
+> Task :react-native-voice_voice:prepareLintJarForPublish UP-TO-DATE
+> Task :react-native-webview:stripDebugDebugSymbols NO-SOURCE
+> Task :react-native-webview:copyDebugJniLibsProjectAndLocalJars
+> Task :react-native-voice_voice:mergeDebugJavaResource
+> Task :react-native-webview:extractDebugAnnotations
+> Task :react-native-voice_voice:syncDebugLibJars
+> Task :react-native-voice_voice:bundleDebugAar
+> Task :react-native-voice_voice:assembleDebug
+> Task :react-native-webview:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :react-native-webview:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :react-native-webview:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :react-native-webview:prepareDebugArtProfile UP-TO-DATE
+> Task :react-native-webview:prepareLintJarForPublish UP-TO-DATE
+> Task :react-native-webview:mergeDebugJavaResource
+> Task :react-native-worklets:extractDebugAnnotations
+> Task :react-native-webview:syncDebugLibJars
+> Task :react-native-webview:bundleDebugAar
+> Task :react-native-webview:assembleDebug
+> Task :react-native-worklets:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :react-native-worklets:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :react-native-worklets:mergeDebugConsumerProguardFiles
+> Task :react-native-worklets:prepareDebugArtProfile UP-TO-DATE
+> Task :react-native-worklets:prepareLintJarForPublish UP-TO-DATE
+> Task :react-native-worklets:stripDebugDebugSymbols
+> Task :react-native-worklets:mergeDebugJavaResource
+> Task :react-native-worklets:syncDebugLibJars
+> Task :react-native-worklets:copyDebugJniLibsProjectAndLocalJars
+> Task :react-native-worklets:bundleDebugAar
+> Task :react-native-worklets:assembleDebug
+
+[Incubating] Problems report is available at: file:///C:/SoS-Application/sos-backend/mobile-app/SOSApp/android/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.0.0/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 2m 21s
+482 actionable tasks: 123 executed, 359 up-to-date
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.0.0/userguide/configuration_cache_enabling.html
