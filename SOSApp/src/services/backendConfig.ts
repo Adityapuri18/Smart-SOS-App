@@ -1,7 +1,7 @@
 import { Platform } from 'react-native';
 
-const DEFAULT_PROD_URL = 'http://10.176.206.139:5000';
-
+// const DEFAULT_PROD_URL = 'http://10.176.206.139:5000';
+const DEFAULT_PROD_URL = 'https://smart-sos-backend.onrender.com';
 export function getPreferredBackendUrl(isDev = __DEV__, platform = Platform.OS): string {
   if (isDev) {
     if (platform === 'android') {

@@ -314,9 +314,13 @@ export async function startVoiceTrigger(onTrigger: TriggerCallback): Promise<boo
   Voice.onSpeechStart = () => {
     console.log('[VoiceTrigger] *** SPEECH STARTED ***');
   };
+  // Voice.onSpeechError = (e: any) => {
+  //   console.error('[VoiceTrigger] *** SPEECH ERROR ***:', JSON.stringify(e));
+  //   if (!isRunning) return;
+  // };
   Voice.onSpeechError = (e: any) => {
-    console.error('[VoiceTrigger] *** SPEECH ERROR ***:', JSON.stringify(e));
-    if (!isRunning) return;
+  if (!isRunning) return;
+  console.error('[VoiceTrigger] *** SPEECH ERROR ***:', JSON.stringify(e));
 
     if (triggerCooldownActive) {
       console.log('[VoiceTrigger] Skipping restart due to trigger cooldown');

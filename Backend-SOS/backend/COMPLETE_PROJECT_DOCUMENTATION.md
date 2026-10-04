@@ -351,7 +351,7 @@ npm start
 
 **Expected output:**
 ```
-Server running on http://localhost:5000
+Server running on https://smart-sos-backend.onrender.com
 ✓ Connected to MongoDB
 ✓ Socket.IO server initialized
 ✓ Twilio configured successfully
@@ -517,7 +517,7 @@ npm install
 
 Create `.env.local`:
 ```env
-NEXT_PUBLIC_API_URL=http://localhost:5000
+NEXT_PUBLIC_API_URL=https://smart-sos-backend.onrender.com
 ```
 
 #### 4. Start Dashboard
@@ -566,7 +566,7 @@ Open browser: `http://localhost:3000`
 
 ### Base URL
 ```
-http://localhost:5000  (development)
+https://smart-sos-backend.onrender.com (development)
 https://sos-backend-production.onrender.com  (production)
 ```
 
@@ -1325,7 +1325,7 @@ client.messages.create({
 4. API URL incorrect
    - Solution: Check `.env.local`
    ```env
-   NEXT_PUBLIC_API_URL=http://localhost:5000
+   NEXT_PUBLIC_API_URL=https://smart-sos-backend.onrender.com
    ```
 
 #### Issue: "Dashboard shows no data"
@@ -1356,7 +1356,7 @@ npm test
 # From sos-backend folder
 
 # Test authentication
-curl -X POST http://localhost:5000/auth/register \
+curl -X POST https://smart-sos-backend.onrender.com/auth/register \
   -H "Content-Type: application/json" \
   -d '{
     "name": "Test User",
@@ -1365,7 +1365,7 @@ curl -X POST http://localhost:5000/auth/register \
   }'
 
 # Test SOS alert
-curl -X POST http://localhost:5000/alerts/trigger \
+curl -X POST https://smart-sos-backend.onrender.com/alerts/trigger \
   -H "Authorization: Bearer <TOKEN>" \
   -H "Content-Type: application/json" \
   -d '{
